@@ -78,7 +78,7 @@ Time Interval Variance 	12.791
 Task 3
 
 
-|                  | Lab1   | Class1 | Office |  
+| Lab1 Chart       | Lab1   | Class1 | Office |  
 |------------------|--------|--------|--------|
 | % of Anomalies   | 3.802  | 3.861  | .704   | 
 | Mean Temp        | 20.998 | 27.018 | 23.029 |   

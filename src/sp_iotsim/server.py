@@ -62,7 +62,6 @@ async def iot_handler(websocket, path):
             print("Closing connection to", websocket.remote_address)
             break
 
-
 async def main(host: str, port: int):
     """
     starts the server and closes client connections
@@ -81,3 +80,7 @@ async def main(host: str, port: int):
     )
 
     await server.wait_closed()
+    
+
+import asyncio
+asyncio.run(main("localhost", "8576"))

@@ -19,11 +19,12 @@ async def main(port: int, addr: str, max_packets: int, log_file: Path):
     log_file: pathlib.Path
         where to store the data received (student must add code for this)
     """
+
     if log_file:
         log_file = Path(log_file).expanduser()
         file = log_file.open(mode='a')
-    else: 
-        log_file = None
+    else:
+        log_ file = None
 
     uri = f"ws://{addr}:{port}"
 
@@ -42,10 +43,4 @@ async def main(port: int, addr: str, max_packets: int, log_file: Path):
             print(data)
             if log_file != None:
                 file.write(data)
-                file.write("\n")
-                
-import argparse
-import asyncio
-
-if __name__ == "__main__":
-	asyncio.run(main(8576, "localhost", 100000, "./SensorData20.txt"))
+                file.write("/n")

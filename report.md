@@ -42,7 +42,7 @@ occupancy Variance 		4.857
 Time Interval Mean 		3.289
 Time Interval Variance 	12.791
 
-![alt text](https://github.com/[augustb21]/https://github.com/augustb21/2020-sensor-miniproject/blob/main/Screen%20Shot%202020-09-17%20at%206.58.54%20PM.png?raw=true)
+![Graphs](https://github.com/augustb21/2020-sensor-miniproject/blob/main/Screen%20Shot%202020-09-17%20at%206.58.54%20PM.png?raw=true)
 
 
 
